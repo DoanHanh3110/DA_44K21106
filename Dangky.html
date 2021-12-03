@@ -284,9 +284,9 @@
                                         </tr>
                                     </table>
                                 </fieldset>
-                                <div align="center">
+                                <!-- <input align="center"> -->
                                     <input type="submit" onClick="return kiemta()" value="Đăng ký">
-                                    <input type="reset" value="Hủy">
+                                    <input onClick="goBack()" type="reset" value="Hủy">                       
                                 </div>
                         	</div>
                   </form>
@@ -295,4 +295,9 @@
      </article>
     
 </body>
+<script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>    
 </html>

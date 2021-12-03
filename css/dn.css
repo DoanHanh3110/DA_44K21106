@@ -78,6 +78,7 @@ input#submit {
     cursor: pointer;
 	color:#FFF;
     background: linear-gradient(to right, #fc00ff, #00dbde);
+    left: 25%;
 }
 input#submit:hover{
  
